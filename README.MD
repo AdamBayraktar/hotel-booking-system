@@ -29,8 +29,8 @@ The application was designed to demonstrate coding skills for a technical challe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hotel-availability-checker.git
-   cd hotel-availability-checker
+   git clone https://github.com/AdamBayraktar/hotel-booking-system.git
+   cd hotel-booking-system
    ```
 2. Install dependencies:
    ```bash
@@ -46,13 +46,19 @@ The application was designed to demonstrate coding skills for a technical challe
 Run the program with the following command:
 
 ```bash
-npx tsx src/index.ts --hotels <hotels.json> --bookings <hotels.json>
+npx tsx src/index.ts --hotels <hotels.json> --bookings <bookings.json>
 ```
 
 or
 
 ```bash
-npx tsx src/index.ts -h <hotels.json> -b <hotels.json>
+npx tsx src/index.ts -h <hotels.json> -b <bookings.json>
+```
+
+### Example
+
+```bash
+npx tsx src/index.ts --hotels data/hotels.json --bookings data/bookings.json
 ```
 
 ### Interactive Queries
