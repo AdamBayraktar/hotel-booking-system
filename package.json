@@ -1,0 +1,25 @@
+{
+  "name": "hotel-booking-system",
+  "version": "1.0.0",
+  "description": "Guestline code challenge",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "app": "npx tsx src/index.ts"
+  },
+  "author": "Adam Bayraktar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.17.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
